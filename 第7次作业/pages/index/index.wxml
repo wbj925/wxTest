@@ -1,8 +1,5 @@
 <!--index.wxml-->
-<view class="tr">
-<image src="../../images/s1_01.gif" 
-style="width: 315px;" mode ="widthFix"></image>
-</view>
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
 <view class="tr">
 <image src="../../images/s1_02.gif" 
 style="width: 315px;" mode ="widthFix"></image>
